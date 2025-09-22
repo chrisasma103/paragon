@@ -62,7 +62,7 @@ export default function BOS() {
       <Section>
         <Subheading>DELIVERABLES</Subheading>
         <Text>
-        With technology procurement being a critical part of DoIt&apos;s government processes, this deliverable will
+        With technology procurement being a critical part of DoIT&apos;s government processes, this deliverable will
         guide City employees in providing clarity to the technology procurement process and establishing new
         standards for the role of procurement in their respective departments. By doing so, this can contribute to
         a more formal procurement management function and simplify the traditional procurement experience to

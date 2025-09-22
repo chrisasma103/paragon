@@ -69,7 +69,7 @@ export default function About() {
   <Subheading className='text-3xl md:text-5xl mb-4'>Our Impact & Previous Partners</Subheading>
   {/* <GrayDivider /> */}
   <Text className="text-base md:text-lg">
-    Since our founding, Paragon has partnered with 21 governments across 15 states and territories on 35 projects. Our work ranges from writing GenAI policy with the State of Georgia to advising on deepfake policy for the City of San José to writing accessibility guidelines for translation software for the City of Lebanon. For more examples, check out our <a href="/projects" style={{ color: 'blue', textDecoration: 'underline' }}>Projects</a> page to read some of our Fellows&apos; policy briefs. See the map below for every government Paragon has partnered with.
+    Since our founding, Paragon has partnered with 28 governments across 19 states and territories on 44 projects. Our work ranges from writing GenAI policy with the State of Georgia to advising on deepfake policy for the City of San José to writing accessibility guidelines for translation software for the City of Lebanon. For more examples, check out our <a href="/projects" style={{ color: 'blue', textDecoration: 'underline' }}>Projects</a> page to read some of our Fellows&apos; policy briefs. See the map below for every government Paragon has partnered with.
   </Text>
   
   {/* <-- 2. ADD THE COMPONENT HERE --> */}
