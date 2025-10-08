@@ -122,12 +122,12 @@ export default function Projects() {
                   projectTitle="Santa Clara County, CA Fellows develop AI Use Case Guidelines" 
                 />
             </Link>
-			{/*<Link href="/projects/santa-clara-county-sp25" passHref>
+			<Link href="/projects/santa-clara-county-sp25" passHref>
                 <ProjectCard 
                   timeline='2025 Spring cohort'
                   projectTitle="Santa Clara County, CA Fellows launch an AI dictionary" 
                 />
-            </Link> */}
+            </Link>
         </div>
 </Section>
   <Section id="Accessibility">
@@ -181,6 +181,12 @@ export default function Projects() {
                 <ProjectCard 
                   timeline='2025 Spring cohort'
                   projectTitle="Tempe, AZ Fellows draft an innovative Data curriculum" 
+                />
+            </Link>
+			<Link href="/projects/tempe-su25" passHref>
+                <ProjectCard 
+                  timeline='2025 Summer cohort'
+                  projectTitle="Tempe, AZ Fellows design a framework to evaluate data literacy" 
                 />
             </Link>
         </div>
