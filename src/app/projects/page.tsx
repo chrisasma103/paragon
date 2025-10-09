@@ -128,6 +128,12 @@ export default function Projects() {
                   projectTitle="Santa Clara County, CA Fellows launch an AI dictionary" 
                 />
             </Link>
+			<Link href="/projects/lebanon-su25" passHref>
+                <ProjectCard 
+                  timeline='2025 Summer cohort'
+                  projectTitle="Lebanon, NH Fellows propose revisions to the City's AI policy" 
+                />
+            </Link>
         </div>
 </Section>
   <Section id="Accessibility">
