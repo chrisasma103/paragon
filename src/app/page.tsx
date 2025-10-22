@@ -174,7 +174,7 @@ export default async function Home() {
       <br></br>
       <div className="text-black text-lg md:text-2xl font-light w-full md:max-w-[65%] text-left mt-4">
         Paragon is supported by the{' '}
-        <a href="https://pitcases.org/2024-network-challenge-grantee-reveal/" className="underline">
+        <a href="https://pit-un.org/2024-network-challenge-grantee-reveal/" className="underline">
           2024 PIT-UN Network Challenge
         </a>
         , a project of the Public Interest Technology University Network, the{' '}

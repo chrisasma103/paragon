@@ -163,8 +163,6 @@ export default function About() {
   )}
 
 </Section>
-
-
 <Section id="dates">
   <Subheading className='text-3xl md:text-5xl mb-4'>Important Dates</Subheading>
   <GrayDivider/>

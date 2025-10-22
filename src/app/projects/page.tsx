@@ -74,18 +74,24 @@ export default function Projects() {
                   projectTitle="Los Angeles, CA Fellows spotlight language access needs" 
                 />
             </Link>
-				<Link href="/projects/state-sp25" passHref>
+	<Link href="/projects/state-sp25" passHref>
                 <ProjectCard 
                   timeline='2025 Spring cohort'
                   projectTitle="Fellows evaluate AI weapon transfers for the State Department" 
                 />
-            </Link>
+				</Link>
 	</div>
 </Section>
   <Section id="AI Governance">
   <Subheading className='text-3xl md:text-5xl mb-4'>AI Governance</Subheading>
       <GrayDivider />
         <div className="grid md:grid-cols-3 gap-6 text-center">
+            <Link href="/projects/lebanon-sp24" passHref>
+                <ProjectCard 
+                  timeline='2024 Spring cohort'
+                  projectTitle="Fellows IN LEBANON, NH CREATE AI AUDITING FRAMEWORK"
+                />
+			</Link>
 		<Link href="/projects/san-jose-pi-sp24" passHref>
                 <ProjectCard 
                   timeline='2024 Spring cohort'
@@ -96,18 +102,6 @@ export default function Projects() {
                 <ProjectCard 
                   timeline='2024 Spring cohort'
                   projectTitle="SAN JOSé, CA Fellows CONFRONT AI-GENERATED MISINFORMATION" 
-                />
-            </Link>
-            <Link href="/projects/lebanon-sp24" passHref>
-                <ProjectCard 
-                  timeline='2024 Spring cohort'
-                  projectTitle="Fellows IN LEBANON, NH CREATE AI AUDITING FRAMEWORK"
-                />
-			</Link>
-			<Link href="/projects/tempe-fa24" passHref>
-                <ProjectCard 
-                  timeline='2024 Fall cohort'
-                  projectTitle="Tempe, AZ Fellows draft an innovative AI curriculum" 
                 />
             </Link>
             <Link href="/projects/georgia-state-fa24" passHref>
@@ -122,10 +116,22 @@ export default function Projects() {
                   projectTitle="Santa Clara County, CA Fellows develop AI Use Case Guidelines" 
                 />
             </Link>
+			<Link href="/projects/tempe-fa24" passHref>
+                <ProjectCard 
+                  timeline='2024 Fall cohort'
+                  projectTitle="Tempe, AZ Fellows draft an innovative AI curriculum" 
+                />
+            </Link>
 			<Link href="/projects/santa-clara-county-sp25" passHref>
                 <ProjectCard 
                   timeline='2025 Spring cohort'
                   projectTitle="Santa Clara County, CA Fellows launch an AI dictionary" 
+                />
+            </Link>
+			<Link href="/projects/fort-collins-su25" passHref>
+                <ProjectCard 
+                  timeline='2025 Summer cohort'
+                  projectTitle="Fort Collins, CO Fellows protect the city from deepfakes" 
                 />
             </Link>
 			<Link href="/projects/lebanon-su25" passHref>
@@ -146,16 +152,22 @@ export default function Projects() {
                   projectTitle="Fellows improve digital accessibility for Lebanon, NH" 
                 />
             </Link>
+			<Link href="/projects/brownsville-fa24" passHref>
+                <ProjectCard 
+                  timeline='2024 Fall cohort'
+                  projectTitle="Brownsville, TX Fellows fight the digital divide" 
+                />
+            </Link>
 			<Link href="/projects/la-cd3-ada-fa24" passHref>
                 <ProjectCard 
                   timeline='2024 Fall cohort'
                   projectTitle="Los Angeles, CA Fellows make the City more accessible online" 
                 />
             </Link>
-			<Link href="/projects/brownsville-fa24" passHref>
+			<Link href="/projects/alexandria-sp25" passHref>
                 <ProjectCard 
-                  timeline='2024 Fall cohort'
-                  projectTitle="Brownsville, TX Fellows fight the digital divide" 
+                  timeline='2025 Spring cohort'
+                  projectTitle="Alexandria, VA Fellows enhance digital equity" 
                 />
             </Link>
 		<Link href="/projects/madison-sp25" passHref>
@@ -164,13 +176,6 @@ export default function Projects() {
                   projectTitle="Madison, WI Fellows develop an accessibility action plan" 
                 />
             </Link>
-			{/*
-			<Link href="/projects/alexandria-sp25" passHref>
-                <ProjectCard 
-                  timeline='2025 Spring cohort'
-                  projectTitle="" 
-                />
-            </Link>*/}
         </div>
 </Section>
   <Section id="Data Management">
