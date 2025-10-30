@@ -1,12 +1,12 @@
 "use client"
-import { useRef } from "react"
+// 1. Import 'type ComponentProps' from React
+import { useRef, type ComponentProps } from "react"
 
-// Add onClick to the component's props
-export default function Card({ className = "", children, onClick, ...props }) {
+// 2. Use ComponentProps<'div'> as the type for your destructured props
+export default function Card({ className = "", children, onClick, ...props }: ComponentProps<'div'>) {
     const ref = useRef(null)
 
     return (
-        // Add the onClick handler and Tailwind classes for cursor and a hover effect
         <div 
             ref={ref} 
             onClick={onClick} 
