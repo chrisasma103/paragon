@@ -8,7 +8,7 @@ import { RiArrowDownLine } from 'react-icons/ri';
 import GrayDivider from '@/components/GrayDivider';
 import FAQuestion from '@/components/FAQuestion';
 import Navbar from '@/components/Navbar';
-//import {MENTOR_APP_URL, MENTEE_APP_URL} from '@/app/constants';
+import {MENTEE_APP_URL} from '@/app/constants';
 import Card from '@/components/Card_Static';
 
 const sections = [
@@ -48,25 +48,13 @@ export default function About() {
             {/* --- BUTTON CONTAINER --- */}
             <div className="flex flex-col sm:flex-row justify-center items-center w-full px-4">
                 <Button
-                    className="fade-in w-full sm:w-auto uppercase md:text-md text-sm md:px-5 px-2 md:py-3 py-1 border-[.2rem] text-gray-700 cursor-not-allowed border-gray-400 disabled:bg-gray-400"
+                    className="fade-in w-full sm:w-auto uppercase md:text-md text-sm md:px-5 px-2 md:py-3 py-1 border-[.2rem] text-gray-700"
                     style="custom"
                     inNewTab
-                    disabled={true}
+                    disabled={false}
+					url={MENTEE_APP_URL}
                 >
-                    mentor apps are now closed
-                </Button>
-
-                {/* --- INVISIBLE PLACEHOLDER --- */}
-                {/* This creates the gap between buttons on wider screens */}
-                <div className="w-20 hidden sm:block" aria-hidden="true"></div>
-
-                <Button
-                    className="fade-in w-full sm:w-auto mt-4 sm:mt-0 uppercase md:text-md text-sm md:px-5 px-2 md:py-3 py-1 border-[.2rem] text-gray-700 cursor-not-allowed border-gray-400 disabled:bg-gray-400"
-                    style="custom"
-                    inNewTab
-                    disabled={true}
-                >
-                    mentee apps are invite only
+                    applications are now open
                 </Button>
             </div>
 
@@ -90,7 +78,7 @@ export default function About() {
       <Section id="program_overview">
   <Subheading className='text-3xl md:text-5xl mb-4'>Program Overview</Subheading>
   <GrayDivider />
-  <Text className="text-base md:text-lg">The Paragon Policy Mentorship Program is a six-month initiative designed to support current and former Paragon Fellows by pairing them with experienced professionals in the science, technology, and policy space. Mentors and mentees are matched based on shared interests, career goals, and availability. Once paired, mentees initiate the relationship and work with their mentor to set expectations, define goals, and schedule check-ins.<br /><br />The time commitment is intentionally light—just one hour per month—yet structured to create substantive conversations about career development, skills building, and navigating the tech policy landscape. In addition to one-on-one mentorship, participants benefit from being part of a broader professional community dedicated to building a more inclusive and capable public interest technology workforce.<br /> <br />Mentors are paired with mentees based on shared interests, career aspirations, and availability. Once matched, mentees will initiate introductions, and both parties will work together to define goals, meeting schedules, and discussion topics.</Text>
+  <Text className="text-base md:text-lg">The Paragon Policy Mentorship Program is a four-month initiative designed to support current and former Paragon Fellows by pairing them with experienced professionals in the science, technology, and policy space. Mentors and mentees are matched based on shared interests, career goals, and availability. Once paired, mentees initiate the relationship and work with their mentor to set expectations, define goals, and schedule check-ins.<br /><br />The time commitment is intentionally light—just one hour per month—yet structured to create substantive conversations about career development, skills building, and navigating the tech policy landscape. In addition to one-on-one mentorship, participants benefit from being part of a broader professional community dedicated to building a more inclusive and capable public interest technology workforce.<br /> <br />Mentors are paired with mentees based on shared interests, career aspirations, and availability. Once matched, mentees will initiate introductions, and both parties will work together to define goals, meeting schedules, and discussion topics.</Text>
   <br />
   <Text className='font-medium italic flex justify-center'>Just one hour a month can launch a career</Text>
   <br /><br />
@@ -125,7 +113,7 @@ export default function About() {
       <h3 className="text-2xl font-bold">Mentor Requirements:</h3>
       <br />
 <ol className='list-decimal list-inside'>
-  <li>Commit to a minimum of one (1) hour per month for six months to support your mentee(s).</li>
+  <li>Commit to a minimum of one (1) hour per month for four months to support your mentee(s).</li>
   <li>Provide guidance on career development, networking, and industry best practices.</li>
   <li>Engage in discussions based on the mentee’s goals and challenges.</li>
   <li>Help mentees build skills relevant to tech policy and adjacent fields.</li>
@@ -139,7 +127,7 @@ export default function About() {
       <h3 className="text-2xl font-bold">Mentee Requirements:</h3>
       <br />
       <ol className='list-decimal list-inside'>
-  <li>Commit to a minimum of one (1) hour per month for six months.</li>
+  <li>Commit to a minimum of one (1) hour per month for four months.</li>
   <li>Actively participate in discussions focused on your career goals, challenges, and professional growth.</li>
   <li>Take initiative in setting goals, asking questions, and applying advice from mentorship sessions.</li>
   <li>Be open to feedback and willing to develop skills relevant to tech policy and adjacent fields.</li>
@@ -152,7 +140,7 @@ export default function About() {
   <br />
         <div className='flex justify-center'>
           <Text className="text-base md:text-lg">
-   Our mentorship program operates bi-annually. <span className="font-semibold">Our innaugural cohort applications (for both mentor and mentee) have closed</span>. Check back later to see when applications for our next cohort open.
+   Our mentorship program operates tri-annually. <span className="font-semibold">Our second cohort applications (for both mentor and mentee) are now open</span>. The application is due January 5th, 2026 at 11:59 PM PST.
   </Text>
 
 </div>
@@ -170,7 +158,7 @@ export default function About() {
           />
         <FAQuestion
           question = "How much time do I need to commit?"
-          answer = "You will need to commit to monthly meetings with your mentee for about 30-60 minutes per meeting, along with occasional follow-up communication. This will span six months."
+          answer = "You will need to commit to monthly meetings with your mentee for about 30-60 minutes per meeting, along with occasional follow-up communication. This will span four months."
         />
         <FAQuestion
           question = "What will I be responsible for during the mentorship?"
