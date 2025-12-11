@@ -46,16 +46,17 @@ export default function About() {
             </Text>
 
             {/* --- BUTTON CONTAINER --- */}
-            <div className="flex flex-col sm:flex-row justify-center items-center w-full px-4">
-                <Button
-                    className="fade-in w-full sm:w-auto uppercase md:text-md text-sm md:px-5 px-2 md:py-3 py-1 border-[.2rem] text-gray-700"
-                    style="custom"
-                    inNewTab
-                    disabled={false}
-					url={MENTEE_APP_URL}
-                >
-                    applications are now open
-                </Button>
+            <div className="flex justify-center mb-20 md:mb-0">
+			<Button 
+                className="fade-in"
+                style="secondary" 
+                inNewTab 
+                url={MENTEE_APP_URL}
+              >
+                apply now for the mentorship program
+              </Button>
+			
+
             </div>
 
             {/* --- VISIBLE ARROW CONTAINER --- */}
@@ -100,8 +101,10 @@ export default function About() {
       <p>Develop your career through curated events and deep one-on-one relationships. Mentees expand their tech policy expertise with the personalized support of a seasoned mentor.</p>
     </Card>
   </div>
-  
 </div>
+  <div className="flex flex-col sm:flex-row justify-center items-center w-full px-4">
+  <Button url={MENTEE_APP_URL} className='mt-4 justify-center'>Apply now</Button>
+        </div>
 </Section>
 
 <Section id="eligibility_timeline">

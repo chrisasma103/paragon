@@ -176,6 +176,12 @@ export default function Projects() {
                   projectTitle="Madison, WI Fellows develop an accessibility action plan" 
                 />
             </Link>
+			<Link href="/projects/usvi-su25" passHref>
+                <ProjectCard 
+                  timeline='2025 Summer cohort'
+                  projectTitle="U.S. Virgin Island Fellows address STEM education outcomes" 
+                />
+            </Link>
         </div>
 </Section>
   <Section id="Data Management">
